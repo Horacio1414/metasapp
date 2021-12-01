@@ -1,10 +1,15 @@
 
 import './App.css';
+import Encabezamiento from './components/compartidos/Encabezamiento';
+import Pie from './components/compartidos/Pie';
+import Principal from './components/compartidos/Principal';
 
 function App() {
   return (
     <div className="App">
-    Hola ho
+    <Encabezamiento />
+    <Principal />
+    <Pie />
     </div>
   );
 }
